@@ -2,6 +2,7 @@
 html {
 
     height: 20em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -14,6 +15,7 @@ html {
 
     height: 100%;
 
+    
 
 }
 
@@ -28,7 +30,7 @@ body {
 
     color: white;
 
-
+   
 }
 
 /*link colorisation */
@@ -70,31 +72,30 @@ justify-content: center;
 
 }
 
-header h1{
+header div{
     margin: 5rem;
-
-    font-size: 60px;
 }
+
+ h1{
+    
+margin: 10px;
+font-size: 50px;
+}
+
 
 section{
 
     display: flex;
     
-    justify-content: center;
-
     align-items: center;
 
     flex-direction: column;
 
-    margin: 4em;
-    
 }
 
 section div{
         
-    display: flex;
-
-    justify-content: center;
+   display: flex;
 
     align-items: center;
 
@@ -104,29 +105,40 @@ section div{
 
 }
 
-iframe{
-    margin: 1em;
-}
 
+iframe{
+    width: 100%;
+    padding-bottom: 20px;
+}
+/*---------------------------footer style----------------------------*/
 
 footer {
 
+    padding-top: 1em;
+
     display: flex;
     
-    justify-content: center;
-
     align-items: center;
 
     flex-direction: column;
     
-    background-color: rgb(26, 26, 26);
+    background-color: rgba(27, 27, 27, 0.966);
 
     padding-bottom: 1rem;
+    
+    background-image:
+          linear-gradient(rgba(255, 255, 255, 0.01) 2px, transparent 2px),
+          linear-gradient(90deg, rgba(255,255,255,0.01) 2px, transparent 2px),
+          linear-gradient(rgba(255,255,255,0.01) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,0.01) 1px, transparent 1px);
+        background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+        background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+      
     
     }
 
     #ig{
-        
+        margin: 10px;
         width: 50px;
     }
 
@@ -137,11 +149,10 @@ footer {
     }
 
     #bottom{
-        margin-top: 1em;
+        
         display: flex;
         justify-content: center;
         width: 90%;
-        
-
+        align-items: center;
     }
 

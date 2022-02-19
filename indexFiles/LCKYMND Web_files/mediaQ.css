@@ -1,0 +1,67 @@
+
+/*------------------------mobile------------------*/
+
+@media (max-width: 600px) {
+    
+
+    section{
+
+        
+        margin: .5em;
+        
+    }
+
+    section div{
+        
+   width: 90%;
+    
+    }
+    
+
+
+    
+}
+
+/*---------------------------tablette-------------*/
+
+@media (min-width: 600px) {
+    
+    
+    section{
+
+        
+        margin: 4em;
+        
+    }
+    
+    section div{
+        
+        width: 90%;
+        height: auto;
+         
+         }
+    
+}
+
+
+/*---------------------------desktop-------------*/
+
+@media (min-width: 1000px) {
+    
+    
+    section{
+
+        
+        margin: 4em;
+        
+    }
+    
+    section div{
+        
+        width: 40%;
+        height: auto;
+         
+         }
+    
+}
+
